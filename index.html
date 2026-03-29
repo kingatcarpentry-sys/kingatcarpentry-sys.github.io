@@ -3,46 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Business Name - Home</title>
+    <title>ClearHaul - Rubbish & Scrap Metal Removal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; line-height: 1.6; }
-        header { background: #007bff; color: white; padding: 1rem 0; text-align: center; }
-        nav { background: #333; padding: 0.8rem 0; }
-        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 2rem; }
-        nav a { color: white; text-decoration: none; font-weight: bold; }
-        main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-        footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-        h1, h2 { color: #007bff; }
-        .btn { display: inline-block; background: #007bff; color: white; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
-        .btn:hover { background: #0056b3; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('van-image.jpg'); /* Replace with your actual image filename */
+            background-size: cover;
+            background-position: center;
+        }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Your Business Name</h1>
-        <p>Professional • Reliable • Affordable</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="prices.html">Prices</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+<body class="font-sans text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-green-700 rounded-xl flex items-center justify-center text-white text-2xl">♻️</div>
+                <div class="font-bold text-2xl text-green-800">ClearHaul</div>
+            </div>
+            <div class="flex gap-8 text-sm font-medium">
+                <a href="index.html" class="text-green-700">Home</a>
+                <a href="prices.html" class="hover:text-green-700">Prices</a>
+                <a href="contact.html" class="hover:text-green-700">Contact</a>
+            </div>
+        </div>
     </nav>
-    
-    <main>
-        <h2>Welcome to Our Services</h2>
-        <p>Replace this paragraph with your own home page content. Describe what you do, who you serve, and why people should choose you. You can add multiple paragraphs here, bullet points, or even images if you upload them to the repo.</p>
-        
-        <p>Another paragraph: Keep it simple — just type your text directly here and save the file. No coding required for basic edits.</p>
-        
-        <a href="prices.html" class="btn">See Our Prices</a>
-        <a href="contact.html" class="btn">Get In Touch</a>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 Your Business Name. All rights reserved.</p>
+
+    <!-- Hero -->
+    <section class="hero-bg h-screen flex items-center text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">Fast Rubbish Removal<br>& Scrap Metal Clearance</h1>
+            <p class="text-2xl mb-10 max-w-lg">We take away your junk, scrap metal, old furniture and more. Reliable, friendly service with the green van you can trust.</p>
+            
+            <div class="flex gap-4">
+                <a href="contact.html" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-xl font-semibold text-lg">Get a Free Quote</a>
+                <a href="prices.html" class="border-2 border-white hover:bg-white hover:text-green-800 px-8 py-4 rounded-xl font-semibold text-lg">View Prices</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow">
+                    <h3 class="text-2xl font-semibold mb-3">Rubbish & Junk Removal</h3>
+                    <p>House clearances, garden waste, bulky items — we load and dispose responsibly.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow">
+                    <h3 class="text-2xl font-semibold mb-3">Scrap Metal Collection</h3>
+                    <p>Old appliances, metal, wiring, cars — collected quickly.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow">
+                    <h3 class="text-2xl font-semibold mb-3">Full Clearances</h3>
+                    <p>Garages, sheds, offices, end-of-tenancy — the lot.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2026 ClearHaul - Professional Waste Removal</p>
     </footer>
+
 </body>
 </html>
