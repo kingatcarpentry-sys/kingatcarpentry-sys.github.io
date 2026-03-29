@@ -1,39 +1,51 @@
-# Fragile Freight
+** ClearHaul!**
 
-Welcome to **Fragile Freight** — your reliable partner for careful, professional freight and delivery services.
+Welcome to **ClearHaul** — your trusted local partner for fast, reliable **rubbish removal**, **scrap metal collection**, and **house/garage clearances**.
+
+We make decluttering simple. Whether it's general junk, old furniture, garden waste, or scrap metal, our friendly team loads it up and takes it away responsibly — often the same day.
 
 ## About Us
 
-We specialize in safe transportation of delicate, high-value, and sensitive items. Whether it's electronics, artwork, medical equipment, or any fragile cargo, we handle it with the utmost care from pickup to delivery.
+ClearHaul provides professional waste removal and clearance services. We operate a modern green van and focus on speed, transparency, and eco-friendly disposal.
 
-Our commitment:
-- Professional handling
-- Real-time tracking
-- Competitive pricing
-- Reliable and timely service
+Our promise:
+- Fast response times (same-day service where possible)
+- Fully insured and licensed operators
+- Responsible recycling — we divert as much as possible from landfill
+- Honest, upfront pricing with no hidden fees
+- Friendly, hardworking team
 
 ## Services
 
-- Local & Long-distance Freight
-- White Glove Delivery
-- Specialized Fragile Cargo Transport
-- Packaging Solutions
-- Insurance Options
+- House, garage & office clearances
+- General rubbish and bulky waste removal
+- Scrap metal collection (appliances, metal, wiring, etc.)
+- Garden waste and shed clearances
+- End-of-tenancy and probate clearances
+- Single-item or full-load collections
 
 ## Website Pages
 
-- [Home](index.html) — Learn about our company and values
-- [Prices](prices.html) — View our transparent pricing packages
-- [Contact](contact.html) — Get in touch with us for a quote
+- [Home](index.html) — Learn about our services and see our van in action
+- [Prices](prices.html) — View our clear pricing for different job sizes
+- [Contact](contact.html) — Request a free quote or book a collection
 
 ## How to Contact Us
 
-- **Email**: info@fragilefreight.com (replace with your real email)
-- **Phone**: (555) 123-4567 (replace with your real phone)
-- **Business Hours**: Monday – Friday, 8:00 AM – 6:00 PM
+- **Phone**: [Your real phone number] — Call or text for fast response
+- **Email**: [your-email@domain.com]
+- **Business Hours**: Monday – Friday, 7:00 AM – 7:00 PM 
+
+We cover Cheshire and surrounding counties.
 
 ---
 
 **Made with ❤️ using GitHub Pages**
 
-This is a simple static website built with HTML and CSS. Easy to edit and maintain directly on GitHub.
+Simple, clean static website built with HTML + Tailwind CSS. Easy to update directly in your GitHub repository.
+
+---
+
+### Quick Links
+- View the live site: https://yourusername.github.io/your-repo-name/
+- Van image: `van-with-scrap.jpg` (update the path in index.html if needed)
