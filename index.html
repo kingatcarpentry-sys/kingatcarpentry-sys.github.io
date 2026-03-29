@@ -3,71 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClearHaul - Rubbish & Scrap Metal Removal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>ClearHaul - Rubbish & Scrap Removal</title>
     <style>
-        .hero-bg {
-            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('van-image.jpg'); /* Replace with your actual image filename */
-            background-size: cover;
-            background-position: center;
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #f8f9fa; 
+            color: #333; 
+            line-height: 1.6; 
+        }
+        header { 
+            background: #166534; 
+            color: white; 
+            padding: 1rem 0; 
+            text-align: center; 
+        }
+        nav { 
+            background: #333; 
+            padding: 0.8rem 0; 
+        }
+        nav ul { 
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            justify-content: center; 
+            gap: 2rem; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+        }
+        main { 
+            max-width: 900px; 
+            margin: 2rem auto; 
+            padding: 0 1rem; 
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        footer { 
+            background: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 1rem; 
+            margin-top: 2rem; 
+        }
+        h1, h2 { 
+            color: #166534; 
         }
     </style>
 </head>
-<body class="font-sans text-gray-800">
-
-    <!-- Navigation -->
-    <nav class="bg-white shadow sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-green-700 rounded-xl flex items-center justify-center text-white text-2xl">♻️</div>
-                <div class="font-bold text-2xl text-green-800">ClearHaul</div>
-            </div>
-            <div class="flex gap-8 text-sm font-medium">
-                <a href="index.html" class="text-green-700">Home</a>
-                <a href="prices.html" class="hover:text-green-700">Prices</a>
-                <a href="contact.html" class="hover:text-green-700">Contact</a>
-            </div>
-        </div>
+<body>
+    <header>
+        <h1>ClearHaul</h1>
+        <p>Rubbish Removal • Scrap Metal • House Clearances</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-
-    <!-- Hero -->
-    <section class="hero-bg h-screen flex items-center text-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6">Fast Rubbish Removal<br>& Scrap Metal Clearance</h1>
-            <p class="text-2xl mb-10 max-w-lg">We take away your junk, scrap metal, old furniture and more. Reliable, friendly service with the green van you can trust.</p>
-            
-            <div class="flex gap-4">
-                <a href="contact.html" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-xl font-semibold text-lg">Get a Free Quote</a>
-                <a href="prices.html" class="border-2 border-white hover:bg-white hover:text-green-800 px-8 py-4 rounded-xl font-semibold text-lg">View Prices</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services -->
-    <section class="py-16 bg-gray-50">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow">
-                    <h3 class="text-2xl font-semibold mb-3">Rubbish & Junk Removal</h3>
-                    <p>House clearances, garden waste, bulky items — we load and dispose responsibly.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl shadow">
-                    <h3 class="text-2xl font-semibold mb-3">Scrap Metal Collection</h3>
-                    <p>Old appliances, metal, wiring, cars — collected quickly.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl shadow">
-                    <h3 class="text-2xl font-semibold mb-3">Full Clearances</h3>
-                    <p>Garages, sheds, offices, end-of-tenancy — the lot.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-white py-8 text-center">
-        <p>&copy; 2026 ClearHaul - Professional Waste Removal</p>
+    
+    <main>
+        <img src="van.jpg" alt="Green van loaded with scrap metal and rubbish - ClearHaul service" class="hero-image">
+        
+        <h2>Welcome to ClearHaul</h2>
+        <p>We provide fast, reliable rubbish removal, scrap metal collection, and full house/garage clearances. Our friendly team loads everything and disposes of it responsibly.</p>
+        
+        <p>From a single sofa to a full property clear-out — just send us a photo via WhatsApp and we’ll give you a quick, honest quote.</p>
+        
+        <a href="contact.html" style="display:inline-block; background:#25D366; color:white; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; margin-top:1rem;">
+            💬 Get Quote on WhatsApp
+        </a>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 ClearHaul. Professional Waste Removal Services</p>
     </footer>
-
 </body>
 </html>
